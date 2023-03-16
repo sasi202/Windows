@@ -96,7 +96,7 @@ Begin {
 
     # Black List of Appx Provisioned Packages to Remove for All Users
     $BlackListedAppsURL = $null
-    $BlackListedAppsURL = "https://raw.githubusercontent.com/MSEndpointMgr/Windows/master/BuiltInApps/blacklist_w11.txt"
+    $BlackListedAppsURL = "https://raw.githubusercontent.com/sasi202/sasi/main/blacklist_w11.txt?token=GHSAT0AAAAAACADQMKU5I3NR6UYTOERY4K6ZAS3CAA"
     Write-LogEntry -Value "BlackListedAppsURL:$($BlackListedAppsURL)"
 
     #Attempt to obtain list of BlackListedApps
